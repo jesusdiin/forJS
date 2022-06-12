@@ -10,3 +10,6 @@ for (let index = 0; index < sabores.length; index++) {
         console.log(`Helado sabor ${sabores[index]} con ${chispas[j]}`)    
     }
 }
+
+// rama de rama
+// Agregaré coflicto de códigos
