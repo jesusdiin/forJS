@@ -2,7 +2,7 @@
 //  - Sabor chocolate, Vainilla
 //  - Chispas de colores, chispas de chocolate, chispas de estrellas
 
-var sabores = ['Chocolate', 'Vainilla', 'Fresa']
+var sabores = ['Chocolate', 'Vainilla', 'Fresa', 'Limón', 'Chicle']
 var chispas = ['Chispas de Colores', 'Chispas de Chocolate', 'Chispas de Estrellas']
 
 for (let index = 0; index < sabores.length; index++) {
@@ -10,3 +10,5 @@ for (let index = 0; index < sabores.length; index++) {
         console.log(`Helado sabor ${sabores[index]} con ${chispas[j]}`)    
     }
 }
+
+// update sabores
