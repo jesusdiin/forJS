@@ -5,8 +5,14 @@
 var sabores = ['Chocolate', 'Vainilla', 'Fresa']
 var chispas = ['Chispas de Colores', 'Chispas de Chocolate', 'Chispas de Estrellas']
 
-for (let index = 0; index < sabores.length; index++) {
-    for (let j = 0; j < chispas.length; j++) {
-        console.log(`Helado sabor ${sabores[index]} con ${chispas[j]}`)    
-    }
+// for (let index = 0; index < sabores.length; index++) {
+//     for (let j = 0; j < chispas.length; j++) {
+//         console.log(`Helado sabor ${sabores[index]} con ${chispas[j]}`)    
+//     }
+// }
+
+helado(sabores, chispas[2])
+
+function helado(sabor, chispa) {
+    console.log(sabor, chispa)
 }
